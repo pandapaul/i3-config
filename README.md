@@ -5,6 +5,7 @@
 * Dark green and white theme colors
 * `mod`+`ctrl`+`left` or `right` to move whole workspaces between screens
 * Screen timeouts and locks with pixelated image of workspace
+* Task-relevant workspaces with assigned apps
 * Uses [font awesome](http://fontawesome.io) for some neat icons
 * Uses [i3 blocks](https://github.com/vivien/i3blocks) for the status bar text
 * Uses [rofi](https://github.com/DaveDavenport/rofi/) for program launching
@@ -17,3 +18,5 @@
 * [feh](https://github.com/derf/feh)
 * [xbacklight](https://github.com/tcatm/xbacklight)
 * [xautolock](https://github.com/l0b0/xautolock)
+* [scrot](https://github.com/dreamer/scrot)
+* [imagemagick](https://github.com/ImageMagick/ImageMagick)
