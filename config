@@ -190,8 +190,8 @@ bar {
 
 # screen timeout and locking
 exec xset s 57
-bindsym $mod+l exec ~/bin/lock.sh
-exec --no-startup-id xautolock -time 3 -corners -+-+ -cornerdelay 5 -cornerredelay 5 -locker ~/bin/lock.sh
+bindsym $mod+l exec lock.sh
+exec --no-startup-id xautolock -time 3 -corners -+-+ -cornerdelay 5 -cornerredelay 5 -locker lock.sh
 
 #volume controls
 bindsym XF86AudioRaiseVolume exec "amixer set Master 1%+; pkill -SIGRTMIN+7 i3blocks"
