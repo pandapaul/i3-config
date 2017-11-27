@@ -93,7 +93,7 @@ set $terminalWorkspace ""
 set $workspace1 ""
 set $workspace2 ""
 set $workspace3 ""
-set $workspace4 " 4"
+set $workspace4 ""
 set $workspace5 " 5"
 set $workspace6 " 6"
 set $workspace7 " 7"
@@ -131,6 +131,7 @@ bindsym $mod+Shift+0 move container to workspace $workspace10
 assign [class="Google-chrome"] $workspace1
 assign [class="Atom"] $workspace2
 assign [class="Mysql-workbench-bin"] $workspace3
+assign [class="Spotify"] $workspace4
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -231,6 +232,7 @@ exec --no-startup-id compton
 exec --no-startup-id google-chrome
 exec --no-startup-id atom
 exec --no-startup-id mysql-workbench
+exec --no-startup-id spotify
 exec i3-msg workspace $terminalWorkspace
 exec i3-sensible-terminal
 
